@@ -1,0 +1,328 @@
+<html>
+
+<head>
+
+<!----------------------------- STYLING -------------------------------->
+
+
+    <style>
+        * {
+            margin: 0 auto;
+            font-family: sans-serif;
+            
+        }
+
+        table {
+            border-radius: 30px;
+            background: linear-gradient( #4e89ad , #457796, #37627d, #305063, #233b4a);
+            /* background: linear-gradient(purple ,purple ,  slateblue , slateblue); */
+            padding: 40px;
+            /* color: yellow; */
+            color: white;
+        }
+
+        .heading{
+            color: #457796;
+        }
+
+        input,
+        select {
+            padding: 7px
+        }
+    </style>
+</head>
+
+<body>
+         <!--*********      LOGO      *********-->
+
+
+    <div align="center">
+        <img src="./imgs/Saylani-logo.png" width="520px"><br> <br>
+    </div> <br>
+
+         <!--*********      HEADING      *********-->
+
+
+    <div align="center">
+       <h1 class="heading">
+          <u>STUDENT REGISTRATION FORM</u>
+        </h1>
+    </div> <br> <br> <br> <br>
+
+            <!--*********      FORM      *********-->
+
+    <form action="./thanks.html" align="center" bgcolor="grey">
+        <table cellpadding="15">
+
+
+            <!------------------------------------------FIRST NAME---------------------------------------------->
+
+            <tr>
+                <td><b>FIRST NAME</b></td>
+                <td><input type="text" name="FIRST NAME" placeholder="Enter First Name" maxlength="30" size="30">
+                    &nbsp;&nbsp&nbsp; <font size="2">(Max 30 characters a_z and A_Z)</font>
+                </td>
+            </tr>
+
+            <!------------------------------------------LAST NAME---------------------------------------------->
+
+            <tr>
+                <td><b>LAST NAME</b></td>
+                <td><input type="text" name="LAST NAME" placeholder="Enter Last Name" maxlength="30" size="30">
+                    &nbsp;&nbsp&nbsp; <font size="2">(Max 30 characters a_z and A_Z)</font>
+                </td>
+            </tr>
+
+            <!------------------------------------------EMAIL ID---------------------------------------------->
+
+            <tr>
+                <td><b>EMAIL ID</b></td>
+                <td><input type="text" name="EMAIL NAME" placeholder="Enter Email Id" maxlength="40" size="30"></td>
+            </tr>
+
+
+            <!------------------------------------------DATE OF BIRTH---------------------------------------------->
+
+
+            <tr>
+                <td><b>DATE OF BIRTH</b></td>
+                <td>
+                    <select name="month">
+                        <option value="Day">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+
+                    <select name="Month">
+                        <option value="Month">Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="september">September</option>
+                        <option value="November">November</option>
+                        <option value="October">October</option>
+                        <option value="December">December</option>
+                    </select>
+
+                    <select name="Year">
+                        <option value="Year">Year</option>
+                        <option value="1980">1980</option>
+                        <option value="1981">1981</option>
+                        <option value="1982">1982</option>
+                        <option value="1983">1983</option>
+                        <option value="1984">1984</option>
+                        <option value="1985">1985</option>
+                        <option value="1986">1986</option>
+                        <option value="1987">1987</option>
+                        <option value="1988">1988</option>
+                        <option value="1989">1989</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!------------------------------------------PHONR NUMBER---------------------------------------------->
+
+            <tr>
+                <td><b>PHONE NUMBER</b></td>
+                <td>
+                    <select name="PHONE">
+                        <option value="+92">+92</option>
+                        <option value="+93">+93</option>
+                        <option value="+96">+96</option>
+                        <option value="+95">+95</option>
+                        <option value="+97">+97</option>
+                        <option value="+98">+98</option>
+                        <option value="+63">+63</option>
+                        <option value="+69">+69</option>
+                        <option value="+47">+47</option>
+                        <option value="+67">+67</option>
+                        <option value="+74">+74</option>
+                        <option value="+91">+91</option>
+                        <option value="+43">+43</option>
+                        <option value="+71">+71</option>
+                        <option value="+233">+233</option>
+                        <option value="+96">+96</option>
+                        <option value="+97">+97</option>
+                        <option value="+82">+82</option>
+                        <option value="+43">+43</option>
+                        <option value="+46">+646</option>
+                        <option value="+62">+62</option>
+                        <option value="+58">+58</option>
+                        <option value="+65">+65</option>
+                        <input type="number" placeholder="123*******" maxlength="20" size="30"> &nbsp;&nbsp&nbsp; <font
+                            size="2">(max 15 digits)</font>
+                    </select>
+                </td>
+            </tr>
+
+            <!------------------------------------------GENDER---------------------------------------------->
+
+            <tr>
+                <td><b>GENDER</b></td>
+                <td>
+                    <input type="radio" name="GENDER">&nbsp&nbsp; Male &nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+                    <input type="radio" name="GENDER">&nbsp&nbsp; Female
+                </td>
+            </tr>
+
+
+            <!------------------------------------------ADDRESS---------------------------------------------->
+
+
+
+            <tr>
+                <td><b>ADDRESS</b></td>
+                <td>
+                    <textarea name="Address" size="30" cols="30" rows="5" placeholder="Enter your address"></textarea>
+                </td>
+            </tr>
+
+
+            <!------------------------------------------LANGUAGE---------------------------------------------->
+<tr>
+    <td><b>LANGUAGES</b></td>
+    <td>
+Urdu &nbsp;&nbsp;&nbsp;<input type="checkbox" name="LANGUAGES"> &nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+English &nbsp;&nbsp;&nbsp;<input type="checkbox" name="LANGUAGES"> &nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+Arabic &nbsp;&nbsp;&nbsp;<input type="checkbox" name="LANGUAGES"> &nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+Chinese &nbsp;&nbsp;&nbsp;<input type="checkbox" name="LANGUAGES"> &nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+    </td>
+</tr>
+
+            <!------------------------------------------COUNTRY--------------------------------------------->
+
+
+            <tr>
+                <td><b>COUNTRY</b></td>
+                <td>
+                    <input type="text" size="30" name="COUNTRY" placeholder="Enter Country">
+                </td>
+            </tr>
+
+
+            <!------------------------------------------CITY---------------------------------------------->
+
+
+            <tr>
+                <td><b>CITY</b></td>
+                <td>
+                    <input type="text" size="30" name="CITY" placeholder="Enter city">
+                </td>
+            </tr>
+
+
+            <!------------------------------------------HOBBIES---------------------------------------------->
+
+
+            <tr>
+                <td><b>HOBBIES</b></td>
+                <td>
+                    Drawing &nbsp;&nbsp;&nbsp;<input type="checkbox" name="HOBBIES"> &nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+                    Singing &nbsp;&nbsp;&nbsp;<input type="checkbox" name="HOBBIES"> &nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+                    Dancing &nbsp;&nbsp;&nbsp;<input type="checkbox" name="HOBBIES"> &nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+                    Sketching &nbsp;&nbsp;&nbsp;<input type="checkbox" name="HOBBIES"> <br>
+                    Others &nbsp;&nbsp;&nbsp;
+                    <input type="text" name="HOBBIES">
+                </td>
+            </tr>
+
+            <!------------------------------------------QUALIFICATIONS---------------------------------------------->
+
+
+            <tr>
+                <td><b>QUALIFICATION</b></td>
+                <td> <input type="text" name="HOBBIES" size="30" placeholder="Enter your Qualification"></td>
+            </tr>
+
+
+            <!------------------------------------------COURSES---------------------------------------------->
+
+
+            <tr>
+                <td><b>COURSES<br> APPLY FOR </b></td>
+                <td>
+                    <input type="radio" name="COURSES APPLY FOR">&nbsp;&nbsp;&nbsp;Web Development
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="COURSES APPLY FOR">&nbsp;&nbsp;&nbsp;Graphic Designing
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <input type="radio" name="COURSES APPLY FOR">&nbsp;&nbsp;&nbsp;Machine Learning
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="COURSES APPLY FOR">&nbsp;&nbsp;&nbsp;Internet of Things
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+            </tr>
+
+
+            <!------------------------------------------IMAGE UPLOAD---------------------------------------------->
+
+        <tr>
+            <td><b>PICTURE UPLOAD</b></td>
+            <td>
+                <input type="file" id="myFile" name="filename">
+                <input type="submit">
+                </td>
+</tr>
+
+            <!------------------------------------------SUBMIT---------------------------------------------->
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset" class="btn">
+
+                </td>
+            </tr>
+
+            
+        </table>
+    </form>
+</body>
+</html>
+<br><br><br>
